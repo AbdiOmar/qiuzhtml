@@ -1,11 +1,88 @@
+<!DOCTYPE html>
 <html>
 <head>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <title>Quiz Board</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 <script src="scriptcode.js"></script>
 <link href="css/Styles.css" rel="stylesheet" type="text/css">
+
+<div class="container">
+
+<header>
+  <div class="pull-left">Simple Coding Questions</div>
+</header>
+  <main>
+
+   <form class="questionForm" id="q1" data-qustion="1">
+     <h3>1. which tag should be used to represent the "Header"</h3>
+      <ul>
+       <li><input type="radio" name="q1" vale="a" />&lt;hr&gt</li>
+       <li><input type="radio" name="q1" vale="b" />&lt;head&gt</li>
+       <li><input type="radio" name="q1" vale="c" />&lt;header&gt</li>
+       <li><input type="radio" name="q1" vale="d" />&lt;main&gt</li>
+      </ul>
+      <button id="submit">Submit</button>
+   </form>
+
+
+   <form class="questionForm" id="q2" data-qustion="2">
+     <h3>2. what does JS stand?</h3>
+      <ul>
+       <li><input type="radio" name="q2" vale="a" />junior student</li>
+       <li><input type="radio" name="q2" vale="b" />java science</li>
+       <li><input type="radio" name="q2" vale="c" />javascript</li>
+       <li><input type="radio" name="q2" vale="d" />junglescript</li>
+      </ul>
+      <button id="submit">Submit</button>
+   </form>
+
+
+   <form class="questionForm" id="q3" data-qustion="3">
+     <h3>3. Is Jquery a javascript framework or library?</h3>
+      <ul>
+       <li><input type="radio" name="q3" vale="a" />Its neither framework or Jquery</li>
+       <li><input type="radio" name="q3" vale="b" />its a framework</li>
+       <li><input type="radio" name="q3" vale="c" />Maybe its Either framwork or library</li>
+       <li><input type="radio" name="q3" vale="d" />Jquery is javascript library</li>
+      </ul>
+      <button id="submit">Submit</button>
+   </form>
+
+
+   <form class="questionForm" id="q4" data-qustion="4">
+
+     <h3>4. What does CSS stand for ?</h3>
+      <ul>
+       <li><input type="radio" name="q4" vale="a" /> Cascading Style Sheet</li>
+       <li><input type="radio" name="q4" vale="b" /> Computer Science Studies</li>
+       <li><input type="radio" name="q4" vale="c" /> Computer System Service</li>
+       <li><input type="radio" name="q4" vale="d" /> Cetisfied system studies</li>
+      </ul>
+      <button id="submit">Submit</button>
+   </form>
+   <form class="questionForm" id="q5" data-qustion="5">
+      <h3>5. which one of the following is a HTML Tag?</h3>
+       <ul>
+        <li><input type="radio" name="q5" vale="a" />&lt;hr&gt</li>
+        <li><input type="radio" name="q5" vale="b" />head</li>
+        <li><input type="radio" name="q5" vale="c" />header</li>
+        <li><input type="radio" name="q5" vale="d" />all of them</li>
+       </ul>
+       <button id="submit">Submit</button>
+    </form>
+<div id="results"></div>
+<br>
+<footer>
+
+<div class="pull-left">Total: 5 questions</div>
+
+</footer>
+ </main>
+</div>
 </body>
 </html>
