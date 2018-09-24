@@ -2,7 +2,7 @@ var score = 0; //set variable score to 0
 
 var total = 5; //set total to 5 questions
 
-var point = 20; // set point to 1  points per correct answer
+var point = 1 ; // set point to 1  points per correct answer
 
 var hihgest = total * point; // set to get the correct results
 
